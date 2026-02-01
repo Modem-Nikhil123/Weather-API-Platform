@@ -6,9 +6,10 @@ import TrackedCity from "@/models/TrackedCity";
 
 export async function DELETE(
   req: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
+    const { id } = await params;
     const session = await getServerSession(authOptions);
 
     if (!session?.user?.email) {
@@ -17,7 +18,7 @@ export async function DELETE(
 
     await connectDB();
 
-    const city = await TrackedCity.findById(params.id);
+    const city = await TrackedCity.findById(id);
 
     if (!city) {
       return NextResponse.json(
@@ -27,7 +28,7 @@ export async function DELETE(
     }
 
     // Deactivate instead of deleting to preserve history
-    await TrackedCity.findByIdAndUpdate(params.id, {
+    await TrackedCity.findByIdAndUpdate(id, {
       isActive: false,
       updatedAt: new Date(),
     });
