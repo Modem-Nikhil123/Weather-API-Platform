@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+---
+### Design Principles
+- Correctness over raw throughput
+- Billing-safe usage tracking
+- Explicit trade-offs for serverless environments
+- Fault-tolerant external API integration
+---
 
-## Getting Started
+## 🛠️ Tech Stack
 
-First, run the development server:
+### Frontend
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Next.js (App Router)
+- React
+- TypeScript
+- Tailwind CSS
+- Redux Toolkit
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Backend
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js API Routes
+- Node.js
+- Mongoose (MongoDB ODM)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Database
 
-## Learn More
+- MongoDB
 
-To learn more about Next.js, take a look at the following resources:
+### Authentication
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- NextAuth.js (Google OAuth)
+- API Key–based authentication
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Payments
 
-## Deploy on Vercel
+- Stripe (Subscriptions & Webhooks)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### External Services
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Open-Meteo Weather API
+- Geocoding API
+
+### Deployment
+
+- Vercel (Serverless Functions & Cron Jobs)
+
+---
+
+## 🧩 Database Models (Simplified)
+
+### User
+
+- Authentication and subscription metadata
+- Plan and quota configuration
+- Stripe customer and subscription identifiers
+
+### Weather
+
+- City metadata
+- Weather measurements
+- Timestamped observations
+
+### Usage
+
+- API key
+- Endpoint
+- Date-based request counts
+
+### TrackedCity
+
+- City coordinates and metadata
+- Fetch count and last fetched timestamp
+- Active / inactive status
+
+---
+
+## 📌 Why This Project Matters
+
+This project goes beyond a basic weather application by addressing **real-world SaaS API challenges**, including:
+
+- Subscription-controlled access
+- Accurate quota enforcement
+- Usage-based billing alignment
+- Fault-tolerant data ingestion
+- Developer-first API design
+
+It serves as a **reference architecture** for building monetized data APIs in production environments.
+
+---
+
+## 📎 Future Enhancements
+
+- Distributed rate limiting using Redis
+- API key hashing and rotation policies
+- Usage-based (metered) billing
+- Webhook event replay and retry mechanisms
+- Multi-region ingestion support
+
+---

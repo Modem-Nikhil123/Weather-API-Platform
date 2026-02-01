@@ -1,0 +1,235 @@
+npm error code ETIMEDOUT
+npm error errno ETIMEDOUT
+npm error network request to https://registry.npmjs.org/ts-node failed, reason: 
+npm error network This is a problem related to network connectivity.
+npm error network In most cases you are behind a proxy or have bad network settings.
+npm error network
+npm error network If you are behind a proxy, please make sure that the
+npm error network 'proxy' config is set properly.  See: 'npm help config'
+npm error A complete log of this run can be found in: /home/user/.npm/_logs/2026-01-27T12_10_02_062Z-debug-0.log
+npm warn exec The following package was not found and will be installed: ts-node@10.9.2
+TypeError: Unknown file extension ".ts" for /home/user/codes/Projects/weather-platform/scripts/ingestWeather.ts
+    at Object.getFileProtocolModuleFormat [as file:] (node:internal/modules/esm/get_format:217:9)
+    at defaultGetFormat (node:internal/modules/esm/get_format:243:36)
+    at defaultLoad (node:internal/modules/esm/load:123:22)
+    at async ModuleLoader.load (node:internal/modules/esm/loader:567:7)
+    at async ModuleLoader.moduleProvider (node:internal/modules/esm/loader:442:45)
+    at async ModuleJob._link (node:internal/modules/esm/module_job:106:19) {
+  code: 'ERR_UNKNOWN_FILE_EXTENSION'
+}
+TypeError: Unknown file extension ".ts" for /home/user/codes/Projects/weather-platform/scripts/ingestWeather.ts
+    at Object.getFileProtocolModuleFormat [as file:] (node:internal/modules/esm/get_format:217:9)
+    at defaultGetFormat (node:internal/modules/esm/get_format:243:36)
+    at defaultLoad (node:internal/modules/esm/load:123:22)
+    at async ModuleLoader.load (node:internal/modules/esm/loader:567:7)
+    at async ModuleLoader.moduleProvider (node:internal/modules/esm/loader:442:45)
+    at async ModuleJob._link (node:internal/modules/esm/module_job:106:19) {
+  code: 'ERR_UNKNOWN_FILE_EXTENSION'
+}
+TypeError: Unknown file extension ".ts" for /home/user/codes/Projects/weather-platform/scripts/ingestWeather.ts
+    at Object.getFileProtocolModuleFormat [as file:] (node:internal/modules/esm/get_format:217:9)
+    at defaultGetFormat (node:internal/modules/esm/get_format:243:36)
+    at defaultLoad (node:internal/modules/esm/load:123:22)
+    at async ModuleLoader.load (node:internal/modules/esm/loader:567:7)
+    at async ModuleLoader.moduleProvider (node:internal/modules/esm/loader:442:45)
+    at async ModuleJob._link (node:internal/modules/esm/module_job:106:19) {
+  code: 'ERR_UNKNOWN_FILE_EXTENSION'
+}
+TypeError: Unknown file extension ".ts" for /home/user/codes/Projects/weather-platform/scripts/ingestWeather.ts
+    at Object.getFileProtocolModuleFormat [as file:] (node:internal/modules/esm/get_format:217:9)
+    at defaultGetFormat (node:internal/modules/esm/get_format:243:36)
+    at defaultLoad (node:internal/modules/esm/load:123:22)
+    at async ModuleLoader.load (node:internal/modules/esm/loader:567:7)
+    at async ModuleLoader.moduleProvider (node:internal/modules/esm/loader:442:45)
+    at async ModuleJob._link (node:internal/modules/esm/module_job:106:19) {
+  code: 'ERR_UNKNOWN_FILE_EXTENSION'
+}
+TypeError: Unknown file extension ".ts" for /home/user/codes/Projects/weather-platform/scripts/ingestWeather.ts
+    at Object.getFileProtocolModuleFormat [as file:] (node:internal/modules/esm/get_format:217:9)
+    at defaultGetFormat (node:internal/modules/esm/get_format:243:36)
+    at defaultLoad (node:internal/modules/esm/load:123:22)
+    at async ModuleLoader.load (node:internal/modules/esm/loader:567:7)
+    at async ModuleLoader.moduleProvider (node:internal/modules/esm/loader:442:45)
+    at async ModuleJob._link (node:internal/modules/esm/module_job:106:19) {
+  code: 'ERR_UNKNOWN_FILE_EXTENSION'
+}
+TypeError: Unknown file extension ".ts" for /home/user/codes/Projects/weather-platform/scripts/ingestWeather.ts
+    at Object.getFileProtocolModuleFormat [as file:] (node:internal/modules/esm/get_format:217:9)
+    at defaultGetFormat (node:internal/modules/esm/get_format:243:36)
+    at defaultLoad (node:internal/modules/esm/load:123:22)
+    at async ModuleLoader.load (node:internal/modules/esm/loader:567:7)
+    at async ModuleLoader.moduleProvider (node:internal/modules/esm/loader:442:45)
+    at async ModuleJob._link (node:internal/modules/esm/module_job:106:19) {
+  code: 'ERR_UNKNOWN_FILE_EXTENSION'
+}
+TypeError: Unknown file extension ".ts" for /home/user/codes/Projects/weather-platform/scripts/ingestWeather.ts
+    at Object.getFileProtocolModuleFormat [as file:] (node:internal/modules/esm/get_format:217:9)
+    at defaultGetFormat (node:internal/modules/esm/get_format:243:36)
+    at defaultLoad (node:internal/modules/esm/load:123:22)
+    at async ModuleLoader.load (node:internal/modules/esm/loader:567:7)
+    at async ModuleLoader.moduleProvider (node:internal/modules/esm/loader:442:45)
+    at async ModuleJob._link (node:internal/modules/esm/module_job:106:19) {
+  code: 'ERR_UNKNOWN_FILE_EXTENSION'
+}
+TypeError: Unknown file extension ".ts" for /home/user/codes/Projects/weather-platform/scripts/ingestWeather.ts
+    at Object.getFileProtocolModuleFormat [as file:] (node:internal/modules/esm/get_format:217:9)
+    at defaultGetFormat (node:internal/modules/esm/get_format:243:36)
+    at defaultLoad (node:internal/modules/esm/load:123:22)
+    at async ModuleLoader.load (node:internal/modules/esm/loader:567:7)
+    at async ModuleLoader.moduleProvider (node:internal/modules/esm/loader:442:45)
+    at async ModuleJob._link (node:internal/modules/esm/module_job:106:19) {
+  code: 'ERR_UNKNOWN_FILE_EXTENSION'
+}
+TypeError: Unknown file extension ".ts" for /home/user/codes/Projects/weather-platform/scripts/ingestWeather.ts
+    at Object.getFileProtocolModuleFormat [as file:] (node:internal/modules/esm/get_format:217:9)
+    at defaultGetFormat (node:internal/modules/esm/get_format:243:36)
+    at defaultLoad (node:internal/modules/esm/load:123:22)
+    at async ModuleLoader.load (node:internal/modules/esm/loader:567:7)
+    at async ModuleLoader.moduleProvider (node:internal/modules/esm/loader:442:45)
+    at async ModuleJob._link (node:internal/modules/esm/module_job:106:19) {
+  code: 'ERR_UNKNOWN_FILE_EXTENSION'
+}
+TypeError: Unknown file extension ".ts" for /home/user/codes/Projects/weather-platform/scripts/ingestWeather.ts
+    at Object.getFileProtocolModuleFormat [as file:] (node:internal/modules/esm/get_format:217:9)
+    at defaultGetFormat (node:internal/modules/esm/get_format:243:36)
+    at defaultLoad (node:internal/modules/esm/load:123:22)
+    at async ModuleLoader.load (node:internal/modules/esm/loader:567:7)
+    at async ModuleLoader.moduleProvider (node:internal/modules/esm/loader:442:45)
+    at async ModuleJob._link (node:internal/modules/esm/module_job:106:19) {
+  code: 'ERR_UNKNOWN_FILE_EXTENSION'
+}
+TypeError: Unknown file extension ".ts" for /home/user/codes/Projects/weather-platform/scripts/ingestWeather.ts
+    at Object.getFileProtocolModuleFormat [as file:] (node:internal/modules/esm/get_format:217:9)
+    at defaultGetFormat (node:internal/modules/esm/get_format:243:36)
+    at defaultLoad (node:internal/modules/esm/load:123:22)
+    at async ModuleLoader.load (node:internal/modules/esm/loader:567:7)
+    at async ModuleLoader.moduleProvider (node:internal/modules/esm/loader:442:45)
+    at async ModuleJob._link (node:internal/modules/esm/module_job:106:19) {
+  code: 'ERR_UNKNOWN_FILE_EXTENSION'
+}
+TypeError: Unknown file extension ".ts" for /home/user/codes/Projects/weather-platform/scripts/ingestWeather.ts
+    at Object.getFileProtocolModuleFormat [as file:] (node:internal/modules/esm/get_format:217:9)
+    at defaultGetFormat (node:internal/modules/esm/get_format:243:36)
+    at defaultLoad (node:internal/modules/esm/load:123:22)
+    at async ModuleLoader.load (node:internal/modules/esm/loader:567:7)
+    at async ModuleLoader.moduleProvider (node:internal/modules/esm/loader:442:45)
+    at async ModuleJob._link (node:internal/modules/esm/module_job:106:19) {
+  code: 'ERR_UNKNOWN_FILE_EXTENSION'
+}
+TypeError: Unknown file extension ".ts" for /home/user/codes/Projects/weather-platform/scripts/ingestWeather.ts
+    at Object.getFileProtocolModuleFormat [as file:] (node:internal/modules/esm/get_format:217:9)
+    at defaultGetFormat (node:internal/modules/esm/get_format:243:36)
+    at defaultLoad (node:internal/modules/esm/load:123:22)
+    at async ModuleLoader.load (node:internal/modules/esm/loader:567:7)
+    at async ModuleLoader.moduleProvider (node:internal/modules/esm/loader:442:45)
+    at async ModuleJob._link (node:internal/modules/esm/module_job:106:19) {
+  code: 'ERR_UNKNOWN_FILE_EXTENSION'
+}
+/home/user/codes/Projects/weather-platform/lib/db.ts:6
+  throw new Error("MONGODB_URI not defined");
+        ^
+
+
+Error: MONGODB_URI not defined
+    at mongoose (/home/user/codes/Projects/weather-platform/lib/db.ts:6:9)
+    at Object.<anonymous> (/home/user/codes/Projects/weather-platform/lib/db.ts:15:23)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object.transformer (/home/user/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+    at Module.load (node:internal/modules/cjs/loader:1317:32)
+    at Module._load (node:internal/modules/cjs/loader:1127:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1339:12)
+    at require (node:internal/modules/helpers:126:16)
+
+Node.js v22.7.0
+/home/user/codes/Projects/weather-platform/lib/db.ts:6
+  throw new Error("MONGODB_URI not defined");
+        ^
+
+
+Error: MONGODB_URI not defined
+    at mongoose (/home/user/codes/Projects/weather-platform/lib/db.ts:6:9)
+    at Object.<anonymous> (/home/user/codes/Projects/weather-platform/lib/db.ts:15:23)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object.transformer (/home/user/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+    at Module.load (node:internal/modules/cjs/loader:1317:32)
+    at Module._load (node:internal/modules/cjs/loader:1127:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1339:12)
+    at require (node:internal/modules/helpers:126:16)
+
+Node.js v22.7.0
+/home/user/codes/Projects/weather-platform/lib/db.ts:6
+  throw new Error("MONGODB_URI not defined");
+        ^
+
+
+Error: MONGODB_URI not defined
+    at mongoose (/home/user/codes/Projects/weather-platform/lib/db.ts:6:9)
+    at Object.<anonymous> (/home/user/codes/Projects/weather-platform/lib/db.ts:15:23)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object.transformer (/home/user/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+    at Module.load (node:internal/modules/cjs/loader:1317:32)
+    at Module._load (node:internal/modules/cjs/loader:1127:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1339:12)
+    at require (node:internal/modules/helpers:126:16)
+
+Node.js v22.7.0
+/home/user/codes/Projects/weather-platform/lib/db.ts:6
+  throw new Error("MONGODB_URI not defined");
+        ^
+
+
+Error: MONGODB_URI not defined
+    at mongoose (/home/user/codes/Projects/weather-platform/lib/db.ts:6:9)
+    at Object.<anonymous> (/home/user/codes/Projects/weather-platform/lib/db.ts:15:23)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object.transformer (/home/user/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+    at Module.load (node:internal/modules/cjs/loader:1317:32)
+    at Module._load (node:internal/modules/cjs/loader:1127:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1339:12)
+    at require (node:internal/modules/helpers:126:16)
+
+Node.js v22.7.0
+/home/user/codes/Projects/weather-platform/lib/db.ts:6
+  throw new Error("MONGODB_URI not defined");
+        ^
+
+
+Error: MONGODB_URI not defined
+    at mongoose (/home/user/codes/Projects/weather-platform/lib/db.ts:6:9)
+    at Object.<anonymous> (/home/user/codes/Projects/weather-platform/lib/db.ts:15:23)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object.transformer (/home/user/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+    at Module.load (node:internal/modules/cjs/loader:1317:32)
+    at Module._load (node:internal/modules/cjs/loader:1127:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1339:12)
+    at require (node:internal/modules/helpers:126:16)
+
+Node.js v22.7.0
+/home/user/codes/Projects/weather-platform/lib/db.ts:6
+  throw new Error("MONGODB_URI not defined");
+        ^
+
+
+Error: MONGODB_URI not defined
+    at mongoose (/home/user/codes/Projects/weather-platform/lib/db.ts:6:9)
+    at Object.<anonymous> (/home/user/codes/Projects/weather-platform/lib/db.ts:15:23)
+    at Module._compile (node:internal/modules/cjs/loader:1546:14)
+    at Object.transformer (/home/user/.npm/_npx/fd45a72a545557e9/node_modules/tsx/dist/register-D46fvsV_.cjs:3:1104)
+    at Module.load (node:internal/modules/cjs/loader:1317:32)
+    at Module._load (node:internal/modules/cjs/loader:1127:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:315:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:217:24)
+    at Module.require (node:internal/modules/cjs/loader:1339:12)
+    at require (node:internal/modules/helpers:126:16)
+
+Node.js v22.7.0
