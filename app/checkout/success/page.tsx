@@ -1,12 +1,12 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import { FiCheckCircle, FiArrowRight } from "react-icons/fi";
 import Navbar from "@/components/Navbar";
 
-export default function CheckoutSuccessPage() {
+function CheckoutSuccessContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const [loading, setLoading] = useState(true);
@@ -104,7 +104,7 @@ export default function CheckoutSuccessPage() {
               </li>
               <li className="flex items-start">
                 <span className="text-green-500 mr-2">✓</span>
-                <span>Manage your subscription in the dashboard</span>
+                <span>Manage your subscription in dashboard</span>
               </li>
             </ul>
           </div>
@@ -123,5 +123,25 @@ export default function CheckoutSuccessPage() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function CheckoutSuccessPage() {
+  return (
+    <Suspense
+      fallback={
+        <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
+          <Navbar />
+          <div className="flex items-center justify-center min-h-[calc(100vh-64px)]">
+            <div className="text-center">
+              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto"></div>
+              <p className="mt-4 text-gray-600 dark:text-gray-400">Loading...</p>
+            </div>
+          </div>
+        </div>
+      }
+    >
+      <CheckoutSuccessContent />
+    </Suspense>
   );
 }

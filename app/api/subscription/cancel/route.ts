@@ -4,10 +4,11 @@ import { authOptions } from "@/lib/auth";
 import { connectDB } from "@/lib/db";
 import User from "@/models/User";
 import { stripe } from "@/lib/stripe";
+import Stripe from "stripe";
 
 export async function POST(req: NextRequest) {
   try {
-    // Get the user session
+    // Get user session
     const session = await getServerSession(authOptions);
     if (!session?.user?.email) {
       return NextResponse.json(
@@ -23,7 +24,7 @@ export async function POST(req: NextRequest) {
     // Connect to database
     await connectDB();
 
-    // Get the user from database
+    // Get user from database
     const user = await User.findOne({ email: session.user.email });
     if (!user) {
       return NextResponse.json(
@@ -78,15 +79,19 @@ export async function POST(req: NextRequest) {
       );
 
       user.cancelAtPeriodEnd = true;
-      user.stripeCurrentPeriodEnd = new Date(
-        subscription.current_period_end * 1000
-      );
+      // Access current_period_end with type assertion to handle Stripe type definition issues
+      const sub = subscription as Stripe.Subscription & { current_period_end?: number };
+      user.stripeCurrentPeriodEnd = sub.current_period_end
+        ? new Date(sub.current_period_end * 1000)
+        : null;
 
       await user.save();
 
       return NextResponse.json({
-        message: "Subscription will be canceled at the end of the billing period",
-        cancelAt: new Date(subscription.current_period_end * 1000),
+        message: "Subscription will be canceled at end of billing period",
+        cancelAt: sub.current_period_end
+          ? new Date(sub.current_period_end * 1000)
+          : null,
       });
     }
   } catch (error) {
